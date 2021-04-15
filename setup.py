@@ -31,6 +31,7 @@ def main():
         version=amimspy.__version__,
         description="Python package for processing acoustic mist ionization mass spectrometry-based metabolomics and lipidomics data",
         long_description=open('README.rst').read(),
+        long_description_content_type="text/x-rst",
         author="Matthew Smith, Ralf Weber",
         author_email="mjs708@student.bham.ac.uk, r.j.weber@bham.ac.uk",
         url="https://github.com/computational-metabolomics/amimspy",
