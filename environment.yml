@@ -1,0 +1,7 @@
+name: amimspy
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+ - python=3.7
+ - dimspy=2.0.0
