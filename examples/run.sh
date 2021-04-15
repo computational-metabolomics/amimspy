@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#Prcoess scans
+#Process scans
 amimspy process-scans --input ../tests/data/testData1.mzML ../tests/data/testData2.mzML \
 --metascans ../tests/data/testData1.txt ../tests/data/testData2.txt --output ../tests/results/peaklists \
 --failed-wells ../tests/results/failed_wells.txt --processed_scans ../tests/results/processed_scans.txt \
