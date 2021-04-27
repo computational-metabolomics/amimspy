@@ -452,7 +452,9 @@ def main():
                     if args.metalist is not None:
                         pl_aligned = update_metadata_and_labels(
                             [pl_aligned], metadata)
-                    peaklists.append(pl_aligned[0])
+                        peaklists.append(pl_aligned[0])
+                    else:
+                        peaklists.append(pl_aligned)
 
         with open(args.failed_wells, "w") as out:
             for well in failed_wells:
