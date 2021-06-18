@@ -21,5 +21,5 @@
 
 __author__ = 'Matthew Smith (mjs708@student.bham.ac.uk), Ralf Weber (r.j.weber@bham.ac.uk)'
 __credits__ = 'Matthew Smith (mjs708@student.bham.ac.uk), Ralf Weber (r.j.weber@bham.ac.uk)'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __license__ = 'GPLv3'
